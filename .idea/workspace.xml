@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30ddc9c8-9cbb-49d1-bd59-537e38082212" name="Changes" comment="" />
+    <list default="true" id="30ddc9c8-9cbb-49d1-bd59-537e38082212" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/BillManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/expenses/Groceries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/expenses/Pets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utilities/Electricity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utilities/Gas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utilities/Trash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utilities/Water.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +36,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2WeRBHMwWFu3wDqmzzRHypkF90D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/mkeiser/IdeaProjects/CMPR112/Midterm/Midterm.iml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,7 +113,7 @@
       <updated>1697090922143</updated>
       <workItem from="1697090923151" duration="2539000" />
       <workItem from="1697093487481" duration="9000" />
-      <workItem from="1697093507161" duration="1831000" />
+      <workItem from="1697093507161" duration="3359000" />
     </task>
     <servers />
   </component>
@@ -118,7 +131,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
