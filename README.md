@@ -1,6 +1,6 @@
 # Monthly Bill Helper
 
-### Presents user w/ the following Menu:
+### Presents user w/ the following console Menu:
 -------------------------------------------------------------------------
 
 #### Welcome to your Monthly Bill Helper
