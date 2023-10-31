@@ -1,0 +1,17 @@
+
+y
+java:S1104"WMake utilityType a static final constant or non-public and provide accessors if needed.(…°ÅÍúÿÿÿÿ8²–³–²1
+t
+java:S1104"WMake companyName a static final constant or non-public and provide accessors if needed.(êÍßŠ8¸–³–²1
+y
+java:S1104	"WMake monthlyCost a static final constant or non-public and provide accessors if needed.(½‚¯¬ùÿÿÿÿ8¸–³–²1
+S
+java:S1444"1Make this "public static utilityType" field final(…°ÅÍúÿÿÿÿ8¸–³–²1
+N
+java:S1444"1Make this "public static companyName" field final(êÍßŠ8¸–³–²1
+S
+java:S1444	"1Make this "public static monthlyCost" field final(½‚¯¬ùÿÿÿÿ8¸–³–²1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(¹‹ó¿ýÿÿÿÿ8¼–³–²1
+U
+java:S1128"3Remove this unused import 'main.logger.Log.LOGGER'.(çîõüýÿÿÿÿ8ÉÆë–²1
