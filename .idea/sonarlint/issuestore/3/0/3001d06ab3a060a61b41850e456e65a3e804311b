@@ -1,0 +1,32 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8ÈÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(Ö—öµøÿÿÿÿ8ËÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(®Œ»Ÿüÿÿÿÿ8ËÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ËÎª™¸1
+G	java:S106"+Replace this use of System.out by a logger.(¶øĞ¡8ËÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(ÿìö‰şÿÿÿÿ8ËÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(›¥‚‡şÿÿÿÿ8ËÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(–¨¯şüÿÿÿÿ8ËÎª™¸1
+G	java:S106"+Replace this use of System.out by a logger.(êôŸÉ8ËÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(®Œ»Ÿüÿÿÿÿ8ÌÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÌÎª™¸1
+F	java:S106"+Replace this use of System.out by a logger.(ğß©j8ÌÎª™¸1
+G	java:S106"+Replace this use of System.out by a logger.(àÏ§Ñ8ÌÎª™¸1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ›ˆÆıÿÿÿÿ8ÌÎª™¸1
+F	java:S106 "+Replace this use of System.out by a logger.(æ–,8ÌÎª™¸1
+L	java:S106!"+Replace this use of System.out by a logger.(¨Ê¤“øÿÿÿÿ8ÌÎª™¸1
+L	java:S106)"+Replace this use of System.out by a logger.(ØÈ³”ÿÿÿÿÿ8ÌÎª™¸1
+L	java:S106*"+Replace this use of System.out by a logger.(®Œ»Ÿüÿÿÿÿ8ÌÎª™¸1
+L	java:S106+"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÌÎª™¸1
+F	java:S106,"+Replace this use of System.out by a logger.(ğß©j8ÍÎª™¸1
+L	java:S106-"+Replace this use of System.out by a logger.(åñĞÊûÿÿÿÿ8ÍÎª™¸1
+G	java:S106."+Replace this use of System.out by a logger.(¶÷Â8ÍÎª™¸1
+L	java:S106/"+Replace this use of System.out by a logger.(¨Ê¤“øÿÿÿÿ8ÍÎª™¸1
+L	java:S1067"+Replace this use of System.out by a logger.(ÈËùÿÿÿÿ8ÍÎª™¸1
+L	java:S1068"+Replace this use of System.out by a logger.(®Œ»Ÿüÿÿÿÿ8ÍÎª™¸1
+L	java:S1069"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÍÎª™¸1
+F	java:S106:"+Replace this use of System.out by a logger.(ğß©j8ÍÎª™¸1
+G	java:S106;"+Replace this use of System.out by a logger.(™´‡Û8ÎÎª™¸1
+G	java:S106<"+Replace this use of System.out by a logger.(„æğ¦8ÎÎª™¸1
+L	java:S106="+Replace this use of System.out by a logger.(¨Ê¤“øÿÿÿÿ8ÎÎª™¸1
