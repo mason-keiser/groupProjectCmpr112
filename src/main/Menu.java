@@ -9,7 +9,8 @@ public class Menu {
     public static final String BAR = "===========================================";
     public static final String BACK = "Enter '0' to return to the Main Menu";
     private static int input;
-    public static int mainMenu (User user) {
+
+    public static int mainMenu(User user) {
         System.out.printf("  Welcome to the best Bill Manager %s!\n", user.getName());
         System.out.println(BAR);
         System.out.println();
@@ -22,7 +23,7 @@ public class Menu {
         return input;
     }
 
-    public static void displayMenu (User user) {
+    public static void displayMenu(User user) {
         System.out.println("            Display Bills Menu");
         System.out.println(BAR);
         System.out.println();
@@ -36,14 +37,14 @@ public class Menu {
 
         if (input == 1) {
             System.out.println("display expense logic");
-        } else if (input == 2){
+        } else if (input == 2) {
             System.out.println("display utility logic");
         } else {
             System.out.println("display all logic");
         }
     }
 
-    public static int addBillMenu (User user) {
+    public static int addBillMenu(User user) {
         System.out.println("              Add Bill Menu");
         System.out.println(BAR);
         System.out.println();
@@ -64,7 +65,7 @@ public class Menu {
         return input;
     }
 
-    public static int removeBillMenu (User user) {
+    public static int removeBillMenu(User user) {
         System.out.println("            Remove Bill Menu");
         System.out.println(BAR);
         System.out.println();
@@ -84,7 +85,7 @@ public class Menu {
         return input;
     }
 
-    public static void checkIfBackSelection (int input, User user) {
+    public static void checkIfBackSelection(int input, User user) {
         if (input == 0) {
             mainMenu(user);
         }
@@ -96,22 +97,19 @@ public class Menu {
         int num;
         System.out.println("Please enter the following details for your expense information");
         System.out.println(BAR + BAR);
-        System.out.println("What would you classify the expense type as? (rent, groceries, pets, etc.)");
-        input1 = scan.next();
         System.out.println("What is your monthly total cost for this expense?");
         num = scan.nextInt();
+        System.out.println("What would you classify the expense type as? (rent, groceries, pets, etc.)");
+        input1 = scan.next();
         System.out.println("Do you have any further details to add this stored expense?");
-        input2 = scan.nextLine();
+        input2 = scan.next();
 
-        try {
-            expense.setExpenseType(input1);
-            expense.setDetails(input2);
-            expense.setMonthlyCost(num);
+        expense.setExpenseType(input1);
+        expense.setDetails(input2);
+        expense.setMonthlyCost(num);
 
-            user.addExpense(expense);
-        } catch(Exception e) {
-            System.out.println("adding user");
-        }
+        user.addExpense(expense);
+
 
         // Display entered expense back to user
         System.out.println(expense.displayExpense());
