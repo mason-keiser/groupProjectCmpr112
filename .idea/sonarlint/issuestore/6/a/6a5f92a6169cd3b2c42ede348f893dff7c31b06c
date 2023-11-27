@@ -1,0 +1,97 @@
+
+t
+java:S1192A"RDefine a constant instead of duplicating this literal "Utility Type: %s
+" 3 times.(ÙıôÑşÿÿÿÿ8ÇÍÿŒÁ1
+…
+java:S11922"hDefine a constant instead of duplicating this literal "=======================================" 5 times.(Ø…ÿ¿8èüüŒÁ1
+n
+java:S11925"RDefine a constant instead of duplicating this literal "Expense Type: %s
+" 3 times.(ûåW8ÇÍÿŒÁ1
+ƒ
+java:S11928"fDefine a constant instead of duplicating this literal "-------------------------------------" 6 times.(²”Áã8Òµ÷ŒÁ1
+z
+java:S1192C"XDefine a constant instead of duplicating this literal "Associated Company: %s
+" 3 times.(Ùª²ùÿÿÿÿ8ÇÍÿŒÁ1
+z
+java:S11927"XDefine a constant instead of duplicating this literal "Additional Details: %s
+" 3 times.(ĞµÃÅùÿÿÿÿ8ÈÍÿŒÁ1
+t
+java:S11926"RDefine a constant instead of duplicating this literal "Monthly Cost: %d
+" 6 times.(Ôßòÿÿÿÿÿ8Óµ÷ŒÁ1
+€
+java:S1192M"^Define a constant instead of duplicating this literal "   Here are all of your Bills" 3 times.(å¶„£üÿÿÿÿ8Ä–ÿŒÁ1
+’
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(éÆšêûÿÿÿÿ8Óµ÷ŒÁ1
+
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¯ıÓ‰8Óµ÷ŒÁ1
+L	java:S1061"+Replace this use of System.out by a logger.(—ÙÏşÿÿÿÿ8îµ÷ŒÁ1
+G	java:S1062"+Replace this use of System.out by a logger.(Ø…ÿ¿8îµ÷ŒÁ1
+m
+java:S34575"Q%n should be used in place of \n to produce the platform-specific line separator.(ûåW8îµ÷ŒÁ1
+F	java:S1065"+Replace this use of System.out by a logger.(ûåW8îµ÷ŒÁ1
+s
+java:S34576"Q%n should be used in place of \n to produce the platform-specific line separator.(Ôßòÿÿÿÿÿ8îµ÷ŒÁ1
+L	java:S1066"+Replace this use of System.out by a logger.(Ôßòÿÿÿÿÿ8îµ÷ŒÁ1
+s
+java:S34577"Q%n should be used in place of \n to produce the platform-specific line separator.(ĞµÃÅùÿÿÿÿ8ïµ÷ŒÁ1
+L	java:S1067"+Replace this use of System.out by a logger.(ĞµÃÅùÿÿÿÿ8ïµ÷ŒÁ1
+G	java:S1068"+Replace this use of System.out by a logger.(²”Áã8ïµ÷ŒÁ1
+G	java:S106="+Replace this use of System.out by a logger.(–ÌŠ¢8ïµ÷ŒÁ1
+G	java:S106>"+Replace this use of System.out by a logger.(Ø…ÿ¿8ïµ÷ŒÁ1
+s
+java:S3457A"Q%n should be used in place of \n to produce the platform-specific line separator.(ÙıôÑşÿÿÿÿ8ğµ÷ŒÁ1
+L	java:S106A"+Replace this use of System.out by a logger.(ÙıôÑşÿÿÿÿ8ğµ÷ŒÁ1
+s
+java:S3457B"Q%n should be used in place of \n to produce the platform-specific line separator.(Óñøÿÿÿÿ8ğµ÷ŒÁ1
+L	java:S106B"+Replace this use of System.out by a logger.(Óñøÿÿÿÿ8ğµ÷ŒÁ1
+s
+java:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(Ùª²ùÿÿÿÿ8ğµ÷ŒÁ1
+L	java:S106C"+Replace this use of System.out by a logger.(Ùª²ùÿÿÿÿ8ğµ÷ŒÁ1
+G	java:S106D"+Replace this use of System.out by a logger.(²”Áã8ğµ÷ŒÁ1
+L	java:S106J"+Replace this use of System.out by a logger.(®Õ¿ºøÿÿÿÿ8ñµ÷ŒÁ1
+L	java:S106M"+Replace this use of System.out by a logger.(å¶„£üÿÿÿÿ8ñµ÷ŒÁ1
+G	java:S106N"+Replace this use of System.out by a logger.(Ø…ÿ¿8òµ÷ŒÁ1
+s
+java:S3457Q"Q%n should be used in place of \n to produce the platform-specific line separator.(ÙıôÑşÿÿÿÿ8òµ÷ŒÁ1
+L	java:S106Q"+Replace this use of System.out by a logger.(ÙıôÑşÿÿÿÿ8òµ÷ŒÁ1
+s
+java:S3457R"Q%n should be used in place of \n to produce the platform-specific line separator.(Óñøÿÿÿÿ8òµ÷ŒÁ1
+L	java:S106R"+Replace this use of System.out by a logger.(Óñøÿÿÿÿ8òµ÷ŒÁ1
+s
+java:S3457S"Q%n should be used in place of \n to produce the platform-specific line separator.(Ùª²ùÿÿÿÿ8òµ÷ŒÁ1
+L	java:S106S"+Replace this use of System.out by a logger.(Ùª²ùÿÿÿÿ8óµ÷ŒÁ1
+G	java:S106T"+Replace this use of System.out by a logger.(²”Áã8óµ÷ŒÁ1
+L	java:S106W"+Replace this use of System.out by a logger.(å¶„£üÿÿÿÿ8óµ÷ŒÁ1
+G	java:S106X"+Replace this use of System.out by a logger.(Ø…ÿ¿8£øŒÁ1
+m
+java:S3457["Q%n should be used in place of \n to produce the platform-specific line separator.(ûåW8óµ÷ŒÁ1
+F	java:S106["+Replace this use of System.out by a logger.(ûåW8Ö«üŒÁ1
+s
+java:S3457\"Q%n should be used in place of \n to produce the platform-specific line separator.(Ôßòÿÿÿÿÿ8óµ÷ŒÁ1
+L	java:S106\"+Replace this use of System.out by a logger.(Ôßòÿÿÿÿÿ8Ö«üŒÁ1
+s
+java:S3457]"Q%n should be used in place of \n to produce the platform-specific line separator.(ĞµÃÅùÿÿÿÿ8óµ÷ŒÁ1
+L	java:S106]"+Replace this use of System.out by a logger.(ĞµÃÅùÿÿÿÿ8×«üŒÁ1
+G	java:S106^"+Replace this use of System.out by a logger.(²”Áã8×«üŒÁ1
+L	java:S106a"+Replace this use of System.out by a logger.(å¶„£üÿÿÿÿ8’ıüŒÁ1
+G	java:S106b"+Replace this use of System.out by a logger.(Ø…ÿ¿8’ıüŒÁ1
+s
+java:S3457e"Q%n should be used in place of \n to produce the platform-specific line separator.(ÙıôÑşÿÿÿÿ8ğÍÿŒÁ1
+L	java:S106e"+Replace this use of System.out by a logger.(ÙıôÑşÿÿÿÿ8ğÍÿŒÁ1
+s
+java:S3457f"Q%n should be used in place of \n to produce the platform-specific line separator.(Óñøÿÿÿÿ8ğÍÿŒÁ1
+L	java:S106f"+Replace this use of System.out by a logger.(Óñøÿÿÿÿ8ğÍÿŒÁ1
+s
+java:S3457g"Q%n should be used in place of \n to produce the platform-specific line separator.(Ùª²ùÿÿÿÿ8ğÍÿŒÁ1
+L	java:S106g"+Replace this use of System.out by a logger.(Ùª²ùÿÿÿÿ8ğÍÿŒÁ1
+G	java:S106h"+Replace this use of System.out by a logger.(²”Áã8ğÍÿŒÁ1
+m
+java:S3457m"Q%n should be used in place of \n to produce the platform-specific line separator.(ûåW8ğÍÿŒÁ1
+F	java:S106m"+Replace this use of System.out by a logger.(ûåW8ğÍÿŒÁ1
+s
+java:S3457n"Q%n should be used in place of \n to produce the platform-specific line separator.(Ôßòÿÿÿÿÿ8ğÍÿŒÁ1
+L	java:S106n"+Replace this use of System.out by a logger.(Ôßòÿÿÿÿÿ8ğÍÿŒÁ1
+s
+java:S3457o"Q%n should be used in place of \n to produce the platform-specific line separator.(ĞµÃÅùÿÿÿÿ8ğÍÿŒÁ1
+L	java:S106o"+Replace this use of System.out by a logger.(ĞµÃÅùÿÿÿÿ8ğÍÿŒÁ1
+G	java:S106p"+Replace this use of System.out by a logger.(²”Áã8ñÍÿŒÁ1

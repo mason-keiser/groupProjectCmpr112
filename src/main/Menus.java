@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Menus {
 
-    public static Scanner scan = new Scanner(System.in);
+    public static final Scanner scan = new Scanner(System.in);
     public static final String PLEASE_SELECT_AN_OPTION_BELOW = "Please select an option below";
     public static final String BAR = "===========================================";
     public static final String BACK = "Enter '0' to return to the Main Menu";
@@ -36,15 +36,28 @@ public class Menus {
         checkIfBackSelection(input, user);
 
         if (input == 1) {
-            System.out.println("display expense logic");
+            if (user.getExpenseList().isEmpty()) {
+                System.out.println("You have not entered any expenses");
+                Main.menuConditioning(user);
+            } else {
+                user.displayAllExpenses();
+                Main.menuConditioning(user);
+            }
         } else if (input == 2) {
-            System.out.println("display utility logic");
+            if (user.getUtilityList().isEmpty()) {
+                System.out.println("You have not entered any utilities");
+                Main.menuConditioning(user);
+            } else {
+                user.displayAllUtilities();
+                Main.menuConditioning(user);
+            }
         } else {
-            System.out.println("display all logic");
+            user.displayAllBills();
+            Main.menuConditioning(user);
         }
     }
 
-    public static int addBillMenu(User user) {
+    public static void addBillMenu(User user) {
         System.out.println("              Add Bill Menu");
         System.out.println(BAR);
         System.out.println();
@@ -56,16 +69,13 @@ public class Menus {
         checkIfBackSelection(input, user);
 
         if (input == 1) {
-            System.out.println("add expense logic");
             addExpense(user);
         } else {
-            System.out.println("add utility logic");
+            addUtility(user);
         }
-
-        return input;
     }
 
-    public static int removeBillMenu(User user) {
+    public static void removeBillMenu(User user) {
         System.out.println("            Remove Bill Menu");
         System.out.println(BAR);
         System.out.println();
@@ -77,28 +87,42 @@ public class Menus {
         checkIfBackSelection(input, user);
 
         if (input == 1) {
-            System.out.println("remove expense logic");
+            if (user.expenseList.isEmpty()) {
+                Main.menuConditioning(user);
+            } else {
+                user.displayAllExpenses();
+                input = scan.nextInt();
+                user.deleteUtilityOrExpense(input - 1, false);
+                Main.menuConditioning(user);
+            }
         } else {
-            System.out.println("remove utility logic");
+            if (user.utilityList.isEmpty()) {
+                Main.menuConditioning(user);
+            } else {
+                user.displayAllUtilities();
+                input = scan.nextInt();
+                user.deleteUtilityOrExpense(input - 1, true);
+                Main.menuConditioning(user);
+            }
         }
-
-        return input;
     }
 
     public static void checkIfBackSelection(int input, User user) {
         if (input == 0) {
-            mainMenu(user);
+            Main.menuConditioning(user);
         }
     }
 
     public static void addExpense(User user) {
         Expense expense = new Expense();
-        String input1, input2, input;
+        String input1;
+        String input2;
+        int input;
 
-        System.out.println("Please enter the following details for your expense information");
+        System.out.println("Please enter the following details for your Expense information");
         System.out.println(BAR + BAR);
         System.out.println("What is your monthly total cost for this expense?");
-        input = scan.nextLine();
+        input = scan.nextInt();
         scan.nextLine();
         System.out.println("What would you classify the expense type as? (rent, groceries, pets, etc.)");
         input1 = scan.nextLine();
@@ -110,8 +134,36 @@ public class Menus {
         expense.setMonthlyCost(input);
         user.addExpense(expense);
 
-        // Display entered expense back to user
         System.out.println(expense.displayExpense());
+        System.out.println(BAR);
+        System.out.println("returning to main menu..");
+        System.out.println();
+        Main.menuConditioning(user);
+    }
+
+    public static void addUtility(User user) {
+        Utility utility = new Utility();
+        String input1;
+        String input2;
+        int input;
+
+        System.out.println("Please enter the following details for your Utility information");
+        System.out.println(BAR + BAR);
+        System.out.println("What is your monthly total cost for this utility?");
+        input = scan.nextInt();
+        scan.nextLine();
+        System.out.println("What would you classify the utility type as (rent, water, electricity, etc.)?");
+        input1 = scan.nextLine();
+        System.out.println("What is the company name associated with this utility?");
+        input2 = scan.nextLine();
+
+        utility.setUtilityType(input1);
+        utility.setCompanyName(input2);
+        utility.setMonthlyCost(input);
+        user.addUtility(utility);
+
+        System.out.println(utility.displayUtility());
+        System.out.println(BAR);
         System.out.println("returning to main menu..");
         System.out.println();
         Main.menuConditioning(user);
