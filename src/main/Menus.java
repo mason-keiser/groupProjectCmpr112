@@ -2,7 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-public class Menu {
+public class Menus {
 
     public static Scanner scan = new Scanner(System.in);
     public static final String PLEASE_SELECT_AN_OPTION_BELOW = "Please select an option below";
@@ -93,28 +93,27 @@ public class Menu {
 
     public static void addExpense(User user) {
         Expense expense = new Expense();
-        String input1, input2;
-        int num;
+        String input1, input2, input;
+
         System.out.println("Please enter the following details for your expense information");
         System.out.println(BAR + BAR);
         System.out.println("What is your monthly total cost for this expense?");
-        num = scan.nextInt();
+        input = scan.nextLine();
+        scan.nextLine();
         System.out.println("What would you classify the expense type as? (rent, groceries, pets, etc.)");
-        input1 = scan.next();
+        input1 = scan.nextLine();
         System.out.println("Do you have any further details to add this stored expense?");
-        input2 = scan.next();
+        input2 = scan.nextLine();
 
         expense.setExpenseType(input1);
         expense.setDetails(input2);
-        expense.setMonthlyCost(num);
-
+        expense.setMonthlyCost(input);
         user.addExpense(expense);
-
 
         // Display entered expense back to user
         System.out.println(expense.displayExpense());
         System.out.println("returning to main menu..");
         System.out.println();
-        mainMenu(user);
+        Main.menuConditioning(user);
     }
 }

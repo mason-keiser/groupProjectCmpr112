@@ -5,14 +5,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         User user = initUser(new User());
-        int choice = Menu.mainMenu(user);
+        menuConditioning(user);
+    }
+
+    public static void menuConditioning(User user) {
+        int choice = Menus.mainMenu(user);
 
         if (choice == 1) {
-            Menu.displayMenu(user);
+            Menus.displayMenu(user);
         } else if (choice == 2) {
-            Menu.addBillMenu(user);
+            Menus.addBillMenu(user);
         } else if (choice == 3) {
-            Menu.removeBillMenu(user);
+            Menus.removeBillMenu(user);
         } else {
             System.out.println("You have entered an incorrect selection");
         }
